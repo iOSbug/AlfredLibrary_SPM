@@ -27,7 +27,7 @@ import AlfredBridgeManager
 Preferred:
 
 ```bash
-./Scripts/deploy_alfred_spm_release.sh 16.3.01
+./Scripts/deploy_alfred_spm_release.sh 16.3.04
 ```
 
 This script:
