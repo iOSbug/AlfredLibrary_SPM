@@ -38,37 +38,37 @@ let package = Package(
         .binaryTarget(
             name: "AlfredLibrary",
             url: "\(baseURL)/AlfredLibrary.xcframework.zip",
-            checksum: "bbadcc09363bf44e4ae4bc1c5d8435dffc8a760448b39c2db9cae46ed8e04241"
+            checksum: "a055003d1763d9ac08c67ecd7ece9ca9bb455a8d968db84da1cbc277858a25d5"
         ),
         .binaryTarget(
             name: "AlfredCore",
             url: "\(baseURL)/AlfredCore.xcframework.zip",
-            checksum: "91400321723fc8b97cf25add8fb4731471bf3100f0baa7e9911f9fb123c432d9"
+            checksum: "41e9d58b3ef2a9a3d125e1aa7a37e2b38f887f8348835bde5411cc273627e573"
         ),
         .binaryTarget(
             name: "AlfredNetManager",
             url: "\(baseURL)/AlfredNetManager.xcframework.zip",
-            checksum: "164ff869be4a9864d50614b4b01aae58e7902f1990abae51a376ea205b4321fc"
+            checksum: "c80668772c0879f7e399dad8f5c19988e0910c182f530e4b5d277b61770a8424"
         ),
         .binaryTarget(
             name: "AlfredLockManager",
             url: "\(baseURL)/AlfredLockManager.xcframework.zip",
-            checksum: "dc3967a3018e79596429d40150aa8b0c8af3dd45148d9fba465c91e84cf0a8a6"
+            checksum: "ada8ce1d4765d4481ca69877e2227a38a979d6d50792e84a27d1544adbf0f95d"
         ),
         .binaryTarget(
             name: "AlfredLockBinder",
             url: "\(baseURL)/AlfredLockBinder.xcframework.zip",
-            checksum: "ff895b5784a7042e699705ad7096afb22bee6691a9b199a58e1f9a889eadc485"
+            checksum: "76d9d2fb7013bbdd5c543bd05f2f62d328cba9f9476de84584264249d5e7a14a"
         ),
         .binaryTarget(
             name: "AlfredBridgeBinder",
             url: "\(baseURL)/AlfredBridgeBinder.xcframework.zip",
-            checksum: "08ec672ef76b4c31a7d720296b392e17cda52874b5025f861d1cfdcd1231f6a4"
+            checksum: "ae801905435568267f47b486d1e5737a530185cb3939a3b1e887c648e6cb50d6"
         ),
         .binaryTarget(
             name: "AlfredBridgeManager",
             url: "\(baseURL)/AlfredBridgeManager.xcframework.zip",
-            checksum: "2fbe9d0618e6add10a10298f72981b169d997bffd55238afaffabef8f4932c03"
+            checksum: "9bc972b3610911662e214ccf27dbf53f2b57e0fd78b9202fc798fe0bdb1d3f53"
         )
     ]
 )
