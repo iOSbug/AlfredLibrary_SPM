@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let version = "16.3.08"
+let version = "16.3.10"
 let baseURL = "https://github.com/iOSbug/AlfredLibrary_SPM/releases/download/\(version)"
 
 let package = Package(
@@ -38,37 +38,37 @@ let package = Package(
         .binaryTarget(
             name: "AlfredLibrary",
             url: "\(baseURL)/AlfredLibrary.xcframework.zip",
-            checksum: "a055003d1763d9ac08c67ecd7ece9ca9bb455a8d968db84da1cbc277858a25d5"
+            checksum: "4fc7f003cae088f3c4c3be2d49ca6be59965982ce6e82cf21878af79afc0ec8c"
         ),
         .binaryTarget(
             name: "AlfredCore",
             url: "\(baseURL)/AlfredCore.xcframework.zip",
-            checksum: "41e9d58b3ef2a9a3d125e1aa7a37e2b38f887f8348835bde5411cc273627e573"
+            checksum: "1ee8bf941a61620685c13eb29ba3a664aa840d60523ab73ba1797279734108eb"
         ),
         .binaryTarget(
             name: "AlfredNetManager",
             url: "\(baseURL)/AlfredNetManager.xcframework.zip",
-            checksum: "c80668772c0879f7e399dad8f5c19988e0910c182f530e4b5d277b61770a8424"
+            checksum: "7a852de5c2998bb5359ae1ba7e432105d2fd905e6880bde1aaf2ddade715bed2"
         ),
         .binaryTarget(
             name: "AlfredLockManager",
             url: "\(baseURL)/AlfredLockManager.xcframework.zip",
-            checksum: "ada8ce1d4765d4481ca69877e2227a38a979d6d50792e84a27d1544adbf0f95d"
+            checksum: "a50f948bb3a63456a67ec8033df493fe73dc2e8f13766128b3843f4ba8987a87"
         ),
         .binaryTarget(
             name: "AlfredLockBinder",
             url: "\(baseURL)/AlfredLockBinder.xcframework.zip",
-            checksum: "76d9d2fb7013bbdd5c543bd05f2f62d328cba9f9476de84584264249d5e7a14a"
+            checksum: "3d9e780b4a0abf4e30df36f3bd78052bc3811e7e7f682c5b0897edc0a6c75fc0"
         ),
         .binaryTarget(
             name: "AlfredBridgeBinder",
             url: "\(baseURL)/AlfredBridgeBinder.xcframework.zip",
-            checksum: "ae801905435568267f47b486d1e5737a530185cb3939a3b1e887c648e6cb50d6"
+            checksum: "b7576fbf9dee0c6bde5dcc1cc261e021c4f2ce7f57e90fe623a3acd80d8d139b"
         ),
         .binaryTarget(
             name: "AlfredBridgeManager",
             url: "\(baseURL)/AlfredBridgeManager.xcframework.zip",
-            checksum: "9bc972b3610911662e214ccf27dbf53f2b57e0fd78b9202fc798fe0bdb1d3f53"
+            checksum: "000749baedf460039c934611c96313f73064f699302861342612c49900172bdd"
         )
     ]
 )
